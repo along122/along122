@@ -19,43 +19,6 @@
 
 # 🚀 ALONG_BOTS
 
-<p align="center">
-  <svg width="100%" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
-    <defs>
-      <linearGradient id="g1" x1="0%" x2="100%" y1="0%" y2="0%">
-        <stop offset="0%" stop-color="#00f5ff"/>
-        <stop offset="50%" stop-color="#7c4dff"/>
-        <stop offset="100%" stop-color="#ff2d95"/>
-      </linearGradient>
-      <filter id="glow">
-        <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
-        <feMerge>
-          <feMergeNode in="coloredBlur"/>
-          <feMergeNode in="SourceGraphic"/>
-        </feMerge>
-      </filter>
-      <style>
-        @keyframes flicker {
-          0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% { opacity: 1; }
-          20%, 24%, 55% { opacity: 0.3; }
-        }
-        @keyframes glowPulse {
-          0%, 100% { filter: url(#glow); }
-          50% { filter: brightness(1.4) url(#glow); }
-        }
-      </style>
-    </defs>
-
-```
-<rect width="1200" height="300" fill="#05070d" />
-
-<text x="50%" y="60" text-anchor="middle" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-size="48" fill="url(#g1)" style="letter-spacing:6px; font-weight:700; animation:flicker 2.5s infinite;" filter="url(#glow)">BOTS & GAMING</text>
-
-<text x="50%" y="120" text-anchor="middle" font-family="'Courier New', monospace" font-size="30" fill="url(#g1)" style="font-weight:700; animation:glowPulse 3s infinite;" filter="url(#glow)">ANEN [MAIN BOT] ✦ UZAKI CHAN [2ND HEAD BOT]</text>
-<text x="50%" y="160" text-anchor="middle" font-family="'Courier New', monospace" font-size="28" fill="url(#g1)" style="animation:flicker 3s infinite;" filter="url(#glow)">NEO BOT [ALONG BOT]</text>
-<text x="50%" y="200" text-anchor="middle" font-family="'Courier New', monospace" font-size="26" fill="url(#g1)" filter="url(#glow)">BOT-X ✦ RIAS BOT ✦ HACK_BOT</text>
-```
-
   </svg>
 </p>
 
