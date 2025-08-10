@@ -34,14 +34,14 @@
 ✦ Anime & Gaming Commands
 🔹 OREO OFFICIAL STORE
 
-# ─── OREO STORE API ───
+# ─── UZAKI API ───
 class Store:
     def __init__(self, name, status):
         self.name = name
         self.status = status
 
-oreo = Store("Oreo Official Store", "🟢 ONLINE")
-print(f"{oreo.name} | {oreo.status} | Instant Top-ups ⚡")
+oreo =("UZAKI CHAN", "🟢 ONLINE")
+print(f"{oreo.name} | {oreo.status} | Instant⚡")
 
 🔹 ALONG BOTS SYSTEM
 
